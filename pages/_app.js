@@ -1,5 +1,4 @@
 // pages/_app.js
-import React from 'react';
 
 import '../styles/globals.css'; // Import global CSS (including Tailwind CSS)
 
