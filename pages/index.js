@@ -5,6 +5,8 @@ import { auth } from '../lib/firebase'; // Import your Firebase config
 import Login from './login'; // Importing the Login component
 import Chat from './chat'; // Importing the Chat component
 
+import Feed from './feet';
+
 export default function Home() {
   const [user, setUser] = useState(null);
 
@@ -22,7 +24,7 @@ export default function Home() {
 
   return (
     <div>
-      {user ? <Chat /> : <Login />}
+      {user ? <Feed  /> : <Login />}
     </div>
   );
 }
